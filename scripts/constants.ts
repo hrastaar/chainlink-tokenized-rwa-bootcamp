@@ -1,8 +1,8 @@
-export const CONSTANTS = {
-    contracts: {
-        Issuer: {
-            address: '0x8fB73338e28Cd886cCB76D6ecC6C1E9D92954B6E',
-            abi: [
+export const SMART_CONTRACT_DEPLOYMENTS = {
+    CONTRACTS: {
+        ISSUER: {
+            ADDRESS: '0xa397b7c50cB5cBf227F06f59D0263cd24Ea917CB',
+            ABI: [
                     {
                         "inputs": [
                             {
@@ -233,9 +233,9 @@ export const CONSTANTS = {
                         }
                     ],
         },
-        RealEstateToken: {
-            address: '0x6DD22585c10d7110D5A8836fE148e67fc9C82B39',
-            abi: [
+        REAL_ESTATE_TOKEN: {
+            ADDRESS: '0xeC7E417c069E77dF6fCEB6dD513F796d861157f4',
+            ABI: [
                 {
                   "inputs": [
                     {

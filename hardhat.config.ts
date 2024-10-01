@@ -1,5 +1,6 @@
 import { HardhatUserConfig } from "hardhat/config";
 import "@nomicfoundation/hardhat-toolbox";
+import "@nomicfoundation/hardhat-verify";
 require('dotenv').config();
 
 const AVALANCHE_FUJI_RPC_URL: string = process.env.AVALANCHE_FUJI_RPC_URL || "";
@@ -24,6 +25,24 @@ const config: HardhatUserConfig = {
         PRIVATE_KEY,
       ],
     }
+  },
+  etherscan: {
+    apiKey: {
+      snowtrace: "snowtrace", // apiKey is not required, just set a placeholder
+    },
+    customChains: [
+      {
+        network: "snowtrace",
+        chainId: 43113,
+        urls: {
+          apiURL: "https://api.routescan.io/v2/network/testnet/evm/43113/etherscan",
+          browserURL: "https://avalanche.testnet.localhost:8080"
+        }
+      }
+    ]
+  },
+  sourcify: {
+    enabled: true
   }
 };
 

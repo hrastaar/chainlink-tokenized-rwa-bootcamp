@@ -1,5 +1,5 @@
 import {ethers} from 'hardhat';
-import {CONSTANTS} from './constants';
+import {SMART_CONTRACT_DEPLOYMENTS} from './constants';
 import assert from 'assert';
 
 async function main() {
@@ -8,8 +8,8 @@ async function main() {
     assert(signer.address === '0x0ce0cf69BAe38002eFd24C8e4DDCe8a85814b195');
     
     const issuerTokenContract = new ethers.Contract(
-        CONSTANTS.contracts.Issuer.address, 
-        CONSTANTS.contracts.Issuer.abi, 
+        SMART_CONTRACT_DEPLOYMENTS.CONTRACTS.ISSUER.ADDRESS, 
+        SMART_CONTRACT_DEPLOYMENTS.CONTRACTS.ISSUER.ABI, 
         signer
     );
 

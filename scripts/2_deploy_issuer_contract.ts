@@ -1,5 +1,5 @@
 import {ethers} from 'hardhat';
-import {CONSTANTS} from './constants';
+import {SMART_CONTRACT_DEPLOYMENTS} from './constants';
 
 async function main() {
     // Deploy Issuer Contract
@@ -8,7 +8,7 @@ async function main() {
     console.log(`Deploying Issuer contract...`);
     const FUNCTIONS_ROUTER_ADDRESS: string = '0xA9d587a00A31A52Ed70D6026794a8FC5E2F5dCb0';
 
-    const issuer = await issuerFactory.deploy(CONSTANTS.contracts.RealEstateToken.address, FUNCTIONS_ROUTER_ADDRESS);
+    const issuer = await issuerFactory.deploy(SMART_CONTRACT_DEPLOYMENTS.CONTRACTS.REAL_ESTATE_TOKEN.ADDRESS, FUNCTIONS_ROUTER_ADDRESS);
     const issuerAddress = await issuer.getAddress();
 
     console.log(`Issuer contract deployed to: ${issuerAddress}`);
