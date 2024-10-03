@@ -1,7 +1,7 @@
 export const SMART_CONTRACT_DEPLOYMENTS = {
     CONTRACTS: {
         ISSUER: {
-            ADDRESS: '0xa397b7c50cB5cBf227F06f59D0263cd24Ea917CB',
+            ADDRESS: '0x8154314EBFe48D4583CbC4C53F89543Cf4eC9f54',
             ABI: [
                     {
                         "inputs": [
@@ -234,7 +234,7 @@ export const SMART_CONTRACT_DEPLOYMENTS = {
                     ],
         },
         REAL_ESTATE_TOKEN: {
-            ADDRESS: '0xeC7E417c069E77dF6fCEB6dD513F796d861157f4',
+            ADDRESS: '0x614a64f803c2b704E32A35B190FF8EF2490D0396',
             ABI: [
                 {
                   "inputs": [
@@ -1593,6 +1593,12 @@ export const SMART_CONTRACT_DEPLOYMENTS = {
                   "type": "function"
                 }
               ],
+        },
+        RWA_LENDING: {
+          ADDRESS: '0x23A2d35dA65Dd71188D6dE67B9Cd398a98742fF8',
+        },
+        ENGLISH_AUCTION: {
+          ADDRESS: '0x356fbbAc4E9f5c423a6a141B6122fc027f6308bF',
         }
     }
 }
