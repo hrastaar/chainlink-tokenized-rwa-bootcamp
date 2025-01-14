@@ -1,4 +1,4 @@
-# Tokenized RWA Bootcamp (Sept. 30 - Oct. 1 2024)
+# Chainlink Tokenized RWA Bootcamp (Sept. 30 - Oct. 1 2024)
 
 Program details can be found at: https://lu.ma/Tokenized-RWA-bootcamp?tk=WxKmT4
 
