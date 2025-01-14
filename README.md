@@ -2,6 +2,8 @@
 
 Program details can be found at: https://lu.ma/Tokenized-RWA-bootcamp?tk=WxKmT4
 
+Bootcamp Instructions can be found at: https://cll-devrel.gitbook.io/tokenized-rwa-bootcamp-2024
+
 My NFT of Bootcamp completion can be found: https://opensea.io/assets/ethereum/0x22C1f6050E56d2876009903609a2cC3fEf83B415/7249963
 
 Try running some of the following tasks:
